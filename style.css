@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("assets/bg.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#main{
+    text-align: center;
+    width: 90%;
+    height: 95%;
+    margin: 30px auto;
+    background-color: #e0dddd;
+    border-radius: 5px;
+    padding: 2%;
+}
+#title h1{
+    font-size: 3em;
+    font-weight: 500;
+    margin: 10px 10px 20px 10px;
+}
+#title p{
+    font-size: 1.1em;
+    font-weight: 200;
+    margin: 20px;
+    color: rgb(99, 96, 96);
+}
+#img-div{
+    width: 96%;
+    background-color: rgb(255, 255, 255);
+}
+#img-div img{
+    max-width: 595px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+#img-caption{
+    margin: 30px;
+    position: relative;
+    bottom: 10px;
+}
+#tribute-info{
+    max-width: 70%;
+    margin: auto;
+}
+#tribute-info h3{
+    margin: 40px;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+#tribute-info p{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    line-height: 2em;
+}
+footer h3{
+    margin: 40px;
+    font-size: 1.4em;
+    font-weight: 500;
+}
